@@ -1,0 +1,15 @@
+[package]
+name = "qqx-macros"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+darling = "0.12.4"
+Inflector = "0.11.4"
+proc-macro2 = "1"
+quote = "1.0"
+syn = { version = "1.0.44", features = ["full", "fold"] }
+thiserror = "1"
